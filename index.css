@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.login-card{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: rotate(5deg);
+    overflow: hidden;
+}
+.login-card-content{
+    width: 80%;
+    margin: auto;
+}
+
+.login-card-header span{
+    color: white;
+    font-size: 28px;
+
+}
+.login-card-field{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.login-card-field span{
+    color: white;
+    scale: 1.4; 
+}
+.login-card-field input{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.login-card-field input:focus{
+    border-bottom: 2px solid teal;
+}
+.login-card-actions{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+
+}
+button{
+    font-size: 18px;
+    background-color: rgb(76, 107, 4);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    scale: 1.1;
+}
+button:active{
+    scale: 0.9;
+}
+.line{
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    transform:rotate(35deg);
+    margin-left: -35px;
+}
